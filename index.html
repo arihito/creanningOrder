@@ -84,6 +84,8 @@
                 const display = document.querySelector('#display')
                 const names = document.getElementsByName('names')[0].value.split(/\n|\t/)
 
+                if (names == '') return false
+
                 let table = document.createElement('table')
                 arrayShuffle(names).forEach((value, idx) => {
                     const tr = document.createElement('tr')

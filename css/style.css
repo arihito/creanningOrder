@@ -10,6 +10,12 @@
   background: url("../images/title.jpg") 0 0 / contain no-repeat;
 }
 
+@media screen and (max-width: 1000px) {
+  .h1 {
+    height: 30vw;
+  }
+}
+
 p {
   color: #666;
   letter-spacing: .1rem;
@@ -22,7 +28,9 @@ textarea {
 table {
   border-collapse: collapse;
 }
-th, td {
+
+th,
+td {
   border: 1px solid #ccc;
   padding: 20px;
 }
